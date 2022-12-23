@@ -8,6 +8,11 @@ RUN apt-get update \
         python3-mock \
         libpython3-dev \
         python-is-python3 \
+        libglib2.0-0 \
+        libsm6 \
+        libxrender1 \
+        libfontconfig1 \
+        libxext6 \
         sudo \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
@@ -23,7 +28,8 @@ RUN echo "root:root" | chpasswd \
     && adduser --disabled-password --gecos "" "${USERNAME}" \
     && echo "${USERNAME}:${USERNAME}" | chpasswd \
     && echo "%${USERNAME}    ALL=(ALL)   NOPASSWD:    ALL" >> /etc/sudoers.d/${USERNAME} \
-    && chmod 0440 /etc/sudoers.d/${USERNAME}
+    && chmod 0440 /etc/sudoers.d/${USERNAME} \
+    && usermod -a -G video ${USERNAME}
 USER ${USERNAME}
 ARG WKDIR=/workdir
 WORKDIR ${WKDIR}
