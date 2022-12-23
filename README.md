@@ -63,3 +63,37 @@ https://user-images.githubusercontent.com/33194443/209331248-f95371f9-c227-4fe8-
 
 The moment a still image is taken, the outer perimeter glows red.
 ![image](https://user-images.githubusercontent.com/33194443/209331346-479a0733-6eb1-4f2f-be58-208c623d8682.png)
+
+```
+$ simpcamcap -dcr
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.100s (10.000 fps)
+			Interval: Discrete 0.125s (8.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+			Interval: Discrete 0.500s (2.000 fps)
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.100s (10.000 fps)
+			Interval: Discrete 0.125s (8.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+			Interval: Discrete 0.500s (2.000 fps)
+		Size: Discrete 800x600
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.100s (10.000 fps)
+			Interval: Discrete 0.125s (8.000 fps)
+			Interval: Discrete 0.167s (6.000 fps)
+			Interval: Discrete 0.500s (2.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.033s (30.000 fps)
+			Interval: Discrete 0.067s (15.000 fps)
+			Interval: Discrete 0.100s (10.000 fps)
+   :
+   :
+```
