@@ -58,3 +58,8 @@ Press the **`Q`** key or **`ESC`** key on the keyboard or right mouse button cli
 ![image](https://user-images.githubusercontent.com/33194443/209312941-e826214a-640b-49fc-9fc0-97f0758cab97.png)
 
 https://user-images.githubusercontent.com/33194443/209317321-78aa1f7a-3d1e-4538-982c-83ea37ee5e29.mp4
+
+https://user-images.githubusercontent.com/33194443/209331248-f95371f9-c227-4fe8-b33b-8815dec26a4d.mp4
+
+The moment a still image is taken, the outer perimeter glows red.
+![image](https://user-images.githubusercontent.com/33194443/209331346-479a0733-6eb1-4f2f-be58-208c623d8682.png)
