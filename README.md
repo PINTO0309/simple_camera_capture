@@ -42,3 +42,5 @@ Press **`C`** key on the keyboard or left mouse button click.
 Press the **`Q`** key or **`ESC`** key on the keyboard or right mouse button click.
 ### 4. Sample
 ![image](https://user-images.githubusercontent.com/33194443/209312941-e826214a-640b-49fc-9fc0-97f0758cab97.png)
+
+https://user-images.githubusercontent.com/33194443/209317321-78aa1f7a-3d1e-4538-982c-83ea37ee5e29.mp4
