@@ -14,6 +14,7 @@ RUN apt-get update \
         libfontconfig1 \
         libxext6 \
         sudo \
+        v4l-utils \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
