@@ -7,6 +7,7 @@ Very simple recording tool using only OpenCV. Automatically record the camera ca
 ## Usage
 ### 1. Start of Recording
 ```bash
+$ pip install -U simpcamcap opencv-python==4.1.2.30
 $ simpcamcap
 ```
 or
