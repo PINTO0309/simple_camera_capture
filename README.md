@@ -9,6 +9,18 @@ Very simple recording tool using only OpenCV. Automatically record the camera ca
 ```bash
 $ simpcamcap
 ```
+or
+```bash
+$ xhost +local: && \
+docker run --rm -it \
+-v `pwd`:/workdir \
+-w /workdir \
+-v /tmp/.X11-unix/:/tmp/.X11-unix:rw \
+-e DISPLAY=$DISPLAY \
+-e QT_X11_NO_MITSHM=1 \
+--device /dev/video0:/dev/video0 \
+ghcr.io/pinto0309/simple_camera_capture:latest simpcamcap
+```
 ```
 usage: simpcamcap
 [-h]
