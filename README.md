@@ -2,7 +2,7 @@
 Very simple recording tool using only OpenCV. Automatically record the camera capture to mp4, press **`C`** key or left mouse button click to take a still image.
 
 ## Environment
-- opencv-python==4.1.0.25
+- opencv-python==4.1.2.30
 
 ## Usage
 ### 1. Start of Recording
